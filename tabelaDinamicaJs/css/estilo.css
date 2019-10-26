@@ -6,3 +6,13 @@
 table{
     margin: 0 auto;
 }
+
+.alerta{
+    background-color: #fff;
+    color: cornsilk;
+}
+
+img{
+    margin: 0 auto;
+    width: 40px;
+}
