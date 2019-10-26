@@ -79,7 +79,7 @@ function add_dados(event) {
 
 };
 
-function SomeDeleteRowFunction() {
+function DeleteRowFuncao() {
     // event.target will be the input element.
     let td = event.target.parentNode;
     let tr = td.parentNode; // the row to be removed
@@ -88,4 +88,4 @@ function SomeDeleteRowFunction() {
 
 //Rotina Principal
 btn_acicionar.addEventListener('click', add_dados);
-corpo_tabela.addEventListener('click', SomeDeleteRowFunction);
+corpo_tabela.addEventListener('click', DeleteRowFuncao);
